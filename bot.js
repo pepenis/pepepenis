@@ -5,7 +5,7 @@ setInterval(() => {
 const express = require('express');
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '6302799889:AAGn-3PU4iPsoNibGHkVrwJ5XzUR36qcmOA';  // Ваш токен
+const token = '7223470896:AAELTVjZbT1psC3ysOCOXwI3KmEhjdM0N2I';  // Ваш токен
 const bot = new TelegramBot(token, { polling: true });
 
 const app = express();
